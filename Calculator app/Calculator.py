@@ -5,11 +5,12 @@ import tkinter.ttk as ttk
 f_num = None
 sign = None
 
+icon_path='c:/Users/HP/Desktop/PracticePython/Calculator/Dtafalonso-Android-Lollipop-Calculator.ico"
+
 root = Tk()
 root.title("Simple Calculator")
-root.iconbitmap('c:/Users/HP/Desktop/PracticePython/Calculator/Dtafalonso-Android-Lollipop-Calculator.ico')
-#C:\Users\HP\Desktop\PracticePython\AutomationStuff
-#root.configure(background="gray")
+root.iconbitmap(icon_path)
+
 
 ent = Entry(root,width=30,borderwidth=10)
 ent.grid(row=0,column=0,columnspan=3)
